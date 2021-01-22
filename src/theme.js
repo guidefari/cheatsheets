@@ -11,6 +11,16 @@ export const theme = extendTheme({
     key: 'chakra-ui-no-flash',
     // useSystemColorMode: true,
   },
+  textStyles: {
+    h1: {
+      fontWeight: 'bold',
+    },
+    h2: {
+      // fontWeight: "bold",
+      fontSize: ['36px', '48px'],
+      fontWeight: 'semibold',
+    },
+  },
   colors: {
     brand: {
       100: '#E0AAFF',

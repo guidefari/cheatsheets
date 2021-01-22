@@ -10,7 +10,7 @@ time for my own reference.
 
 ## Update dependencies
 
-Update all project dependencies to lates versions.
+Update all project dependencies to latest versions.
 
 ```bash
 yarn upgrade --latest

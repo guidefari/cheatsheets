@@ -12,7 +12,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { Helmet } from 'react-helmet'
 import Highlighter from 'react-highlight-words'
 import SEO from 'react-seo-component'
-import { SocialButtons } from '../components/social-buttons'
+// import { SocialButtons } from '../components/social-buttons'
 import { useSiteMetadata } from '../hooks/useSiteMetadata'
 import { ogImageUrl } from '../util/og-image-url-build'
 
@@ -74,7 +74,7 @@ export default function IndexPage({ data }) {
           content={ogImageUrl(authorName, 'cheatsheets.xyz', title)}
         />
       </Helmet>
-      <SocialButtons />
+      {/* <SocialButtons /> */}
       <Box as="form" mt="5" mb="8">
         <FormLabel htmlFor="search" fontSize="xl">
           Search:
