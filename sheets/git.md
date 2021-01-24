@@ -21,6 +21,19 @@ git apply --check the-patch-file.patch
 git apply the-patch-file.patch
 ```
 
+## Git revert abort
+
+If you haven't done it completely, i.e., in gitbash you see something
+like: `Username@Host MINGW64 /d/code/your-project (feature|REVERTING)`
+
+then you can use this to abort
+
+```bash
+git revert --abort
+```
+
+[src](https://stackoverflow.com/questions/3199366/git-cancel-a-revert)
+
 ## Change the git init default branch name
 
 Don't want to have the default branch called master?
