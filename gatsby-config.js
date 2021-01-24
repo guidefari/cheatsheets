@@ -4,14 +4,14 @@ require('dotenv').config({
 
 const siteMetadata = {
   title: `Cheat Sheets`,
-  siteUrl: `https://cheatsheets.xyz`,
-  gitHubUrl: `https://github.com/spences10/cheat-sheets`,
+  siteUrl: `https://guide-cheatsheet.netlify.app/`,
+  gitHubUrl: `https://github.com/txndai/cheatsheets`,
   siteTitle: `Cheat Sheets`,
   titleTemplate: `%s · Modern web development hints and tips.`,
   description: `Everyday commands, config, hints and tips used for modern web development.`,
   image: `/favicon.png`,
-  twitterUsername: `@spences10`,
-  authorName: `Scott Spence`,
+  twitterUsername: `@txndai`,
+  authorName: `Guide Fari`,
   faviconPng: `./static/favicon.png`,
   backgroundColour: `#f7f0eb`,
   themeColour: `#a2466c`,
