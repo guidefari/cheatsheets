@@ -1,9 +1,13 @@
 ---
 title: CSS
 createdDate: 2019-12-07
-updatedDate: 2019-12-07
+updatedDate: 2021-01-77
 published: true
 ---
+
+## Selector cheatsheets
+
+1. [frontend30](https://frontend30.com/css-selectors-cheatsheet/)
 
 ## Vertically center with margin
 
