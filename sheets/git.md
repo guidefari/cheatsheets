@@ -5,6 +5,19 @@ updatedDate: 2020-08-18
 published: true
 ---
 
+## Undo last commit (on local & remote)
+
+```bash
+git reset --hard HEAD^
+git push -f
+```
+
+`HEAD^` means one revision back (this is the local step) then you
+force push to origin. without the force flag, you'll get an error from
+git - telling you about the one incoming change from remote, which
+you're trying to remove:)
+[src](https://stackoverflow.com/questions/4647301/rolling-back-local-and-remote-git-repository-by-1-commit)
+
 ## Use a git patch file
 
 How to apply a git patch file.
