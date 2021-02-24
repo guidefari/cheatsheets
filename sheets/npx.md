@@ -30,3 +30,9 @@ npx npm-check -u
 ```bash
 npx browserslist "last 2 versions, not dead, not < 2%"
 ```
+
+## delete node_modules folders system wide
+
+```bash
+npx npkill
+```
