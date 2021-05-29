@@ -5,6 +5,17 @@ updatedDate: 2020-08-18
 published: true
 ---
 
+## Add files to last commit
+
+```bash
+# make your change
+git add . # or add individual files
+git commit --amend --no-edit
+# now your last commit contains that change!
+# WARNING: never amend public commits
+```
+[src](https://ohshitgit.com/)
+
 ## Undo last commit (on local & remote)
 
 ```bash
